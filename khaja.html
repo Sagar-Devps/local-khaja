@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Person and Lunch Name Storage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Person and Lunch Name Storage</h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Add Person Name</h3>
+
+                <form id="personForm">
+                    <div class="form-group">
+                        <label for="personName">Enter a name:</label>
+                        <input type="text" class="form-control" id="personName" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Name</button>
+                </form>
+
+                <table id="personTable" class="table mt-4">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-6">
+                <h3>Add Lunch Name</h3>
+
+                <form id="lunchForm">
+                    <div class="form-group">
+                        <label for="lunchName">Enter a lunch name:</label>
+                        <input type="text" class="form-control" id="lunchName" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Lunch</button>
+                </form>
+
+                <table id="lunchTable" class="table mt-4">
+                    <thead>
+                        <tr>
+                            <th>Lunch Name</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <button id="randomNamesBtn" class="btn btn-secondary random-btn">Generate Random Names</button>
+        <button id="randomLunchBtn" class="btn btn-secondary random-btn">Generate Random Lunch</button>
+    </div>
+
+    <script src="launch.js"></script>
+</body>
+</html>

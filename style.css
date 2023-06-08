@@ -1,0 +1,16 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.table-btn {
+    padding: 0;
+    border: none;
+    background: none;
+    color: red;
+    cursor: pointer;
+}
+
+.random-btn {
+    margin-top: 20px;
+}
