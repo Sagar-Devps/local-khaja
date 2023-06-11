@@ -4,6 +4,27 @@
     <title>Person and Lunch Name Storage</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
+<style>
+    .pairTable {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .pairTable th,
+    .pairTable td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    .pairTable th {
+      text-align: left;
+    }
+    
+    .pairTable tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    </style>
+    
 </head>
 <body>
     <div class="container">
@@ -56,6 +77,8 @@
                 </table>
             </div>
         </div>
+        <div id="randomResult"></div>
+
 
         <button id="randomNamesBtn" class="btn btn-secondary random-btn">Generate Random Names</button>
         <button id="randomLunchBtn" class="btn btn-secondary random-btn">Generate Random Lunch</button>
